@@ -1,0 +1,35 @@
+{
+  "data":[{
+    "title":"RealTitle",
+    "id":"111",
+    "isMandatory":false,
+    "uri":{
+      "url":"testurl/111"
+    }
+  },
+  {
+    "title":"FakeTitle",
+    "id":"112",
+    "isMandatory":true,
+    "uri":{
+      "url":"testurl/112"
+    }
+  },
+  {
+    "title":"AwesomeTitle",
+    "id":"113",
+    "isMandatory":false,
+    "uri":{
+      "url":"testurl/113"
+    }
+  },
+  {
+    "title":"BestTitle",
+    "id":"114",
+    "isMandatory":true,
+    "uri":{
+      "url":"testurl/114"
+    }
+  }
+]
+}
