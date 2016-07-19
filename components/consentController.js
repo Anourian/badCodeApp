@@ -1,6 +1,6 @@
 angular.module('badCodeApp.consent',[])
   .controller('consentController',function($scope, dataFactory){
-    $scope.headers = {heads:['Title','Owner','Mandatory', '','']};
+    $scope.headers = {heads:['Title','Owner','Mandatory', '']};
     $scope.data = dataFactory.getData();
     $scope.saveConsentForm = function (title, url,isMandatory){
       //Delete next two lines for dataFactory implementation along with uncommenting out return function in dataFactory
