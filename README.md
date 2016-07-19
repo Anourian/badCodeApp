@@ -6,9 +6,9 @@ A refactor using only Angular for several files which utilized multiple framewor
 
 ##Getting Started
 
-Download repo
-npm install
-open localhost at port 8080
+Download repo <br />
+npm install <br />
+open localhost at port 8080 <br />
 
 ##Will more be added?
 Probably not. This is a temporary repo
