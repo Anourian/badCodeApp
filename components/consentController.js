@@ -6,7 +6,7 @@ angular.module('badCodeApp.consent',[])
       //Delete next two lines for dataFactory implementation along with uncommenting out return function in dataFactory
       alert("The title is: " + title +  "\nThe url is: " + url + "\nIs it Mandatory? " + isMandatory);
       return //added so there are no unneccessary calls for the data/promise object
-      dataFactory.getData(title, url,isMandatory)
+      dataFactory.saveData(title, url, isMandatory)
         .then(function(data){
           if (data.success){
             /*Hide siblings

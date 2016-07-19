@@ -45,7 +45,7 @@ angular.module('badCodeApp.data',[])
   }
   /*
     //With API Calls delete above return lines and uncomment out this if api routes are valid
-    var getData= function(title, url, isMandatory) {
+    var saveData= function(title, url, isMandatory) {
       return $http({
         method:'POST',
         url:url,
@@ -59,6 +59,9 @@ angular.module('badCodeApp.data',[])
     };
     //returning function with dataFactory object
     return {
-    getData:getData
-  }*/
+      getData:function(){
+        return data;
+      },
+      saveData:saveData
+    }*/
 });
