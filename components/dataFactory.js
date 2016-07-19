@@ -1,5 +1,5 @@
 angular.module('badCodeApp.data',[])
-.service('dataFactory', function($http){  
+.factory('dataFactory', function($http){  
   var data = {
     "data":[{
       "title":"RealTitle",
